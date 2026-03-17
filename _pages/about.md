@@ -11,7 +11,6 @@ profile:
   more_info: >
     <p>shadouaj@umich.edu</p>
 
-
 selected_papers: true # includes a list of papers marked as "selected={true}"
 teaching_experience: true # includes teaching experience section
 service: true # includes service section
@@ -31,9 +30,7 @@ latest_posts:
 
 ## About Me
 
-
 I am a PhD candidate at the Department of [Computer and Information Science](https://umdearborn.edu/cecs) at the University of Michigan-Dearborn advised by Dr. [Niccolò Meneghetti](https://www-personal.umd.umich.edu/~niccolom/research/). My research resides at the intersection of Machine Learning and Systems, with a core focus on Bayesian inference and probabilistic modeling
-
 
 <div class="cv-download-section">
   <a href="{{ '/assets/pdf/resume.pdf' | relative_url }}" class="cv-download-btn" target="_blank">
@@ -44,8 +41,7 @@ I am a PhD candidate at the Department of [Computer and Information Science](htt
 
 <br><br><br><br><br>
 
-**Research areas:** Real-world data is inherently uncertain, yet the systems we use to manage and query it were not designed to handle that uncertainty. My research addresses this gap by embedding Bayesian inference directly into database query engines, making probabilistic reasoning a native operation in the execution pipeline rather than an external add-on. I work at the intersection of data management, statistical inference, and probabilistic programming, building high-performance systems in C++ that reason under uncertainty as naturally as they filter and join.  More broadly, I am interested in how principled statistical reasoning can be embedded into the AI systems that increasingly operate over real-world data.
-
+**Research areas:** Real-world data is inherently uncertain, yet the systems we use to manage and query it were not designed to handle that uncertainty. My research addresses this gap by embedding Bayesian inference directly into database query engines, making probabilistic reasoning a native operation in the execution pipeline rather than an external add-on. I work at the intersection of data management, statistical inference, and probabilistic programming, building high-performance systems in C++ that reason under uncertainty as naturally as they filter and join. More broadly, I am interested in how principled statistical reasoning can be embedded into the AI systems that increasingly operate over real-world data.
 
 <br><br>
 

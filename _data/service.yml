@@ -7,7 +7,7 @@
   # description: "Optional description of your role."
 
 - conference: "BIGDATA"
-  role: "Reviewer" 
+  role: "Reviewer"
   year: "2022, 2023, 2024, 2025"
   # description: "Optional description of your review contribution."
 
@@ -19,7 +19,6 @@
   role: "Volunteer"
   year: "Sep - Dec 2024"
   description: "Created educational materials and resources that support learning opportunities for underprivileged children."
-
 # Add more service experiences as needed
 # - conference: "Another Conference"
 #   role: "Reviewer"
