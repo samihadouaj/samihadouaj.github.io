@@ -47,4 +47,21 @@ I am a PhD candidate at the Department of [Computer and Information Science](htt
 
 <br><br><br><br><br>
 
-**Research areas:** My research integrates Bayesian machine learning into database cores to natively handle uncertain and probabilistic data. I enable databases to perform statistical reasoning directly, managing uncertainty and delivering reliable insights from complex, incomplete data. To achieve this, I work at the intersection of data management, machine learning, and probabilistic programming. I develop query execution engines that bridge relational queries and Bayesian inference while maintaining high performance.
+**Research areas:** Real-world data is inherently uncertain, yet the systems we use to manage and query it were not designed to handle that uncertainty. My research addresses this gap by embedding Bayesian inference directly into database query engines, making probabilistic reasoning a native operation in the execution pipeline rather than an external add-on. I work at the intersection of data management, statistical inference, and probabilistic programming, building high-performance systems in C++ that reason under uncertainty as naturally as they filter and join.  More broadly, I am interested in how principled statistical reasoning can be embedded into the AI systems that increasingly operate over real-world data.
+
+
+<br><br>
+
+## News
+
+<div class="news-section">
+  <div class="news-item">
+    <div class="news-badge">
+      <span class="news-badge-venue">SIGMOD 2026</span>
+    </div>
+    <div class="news-content">
+         <p class="news-text">Paper accepted at <strong>ACM SIGMOD 2026</strong>. <em>Variational Inference for De Finetti Logic</em> brings variational inference natively into the database query engine, enabling fast, relational probabilistic programming.</p>
+      <span class="news-date">March 2026</span>
+    </div>
+  </div>
+</div>

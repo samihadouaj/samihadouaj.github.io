@@ -140,6 +140,70 @@ header nav#navbar {
   }
 }
 
+// News section styling
+.news-section {
+  margin-top: 1rem;
+  margin-left: 2rem;
+
+  .news-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.2rem;
+    padding: 1rem 1.2rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--global-theme-color);
+    background-color: var(--global-bg-color);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.07);
+    transition: box-shadow 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .news-badge {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 0.1rem;
+  }
+
+  .news-badge-venue {
+    display: inline-block;
+    background-color: var(--global-theme-color);
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.25em 0.65em;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+
+  .news-content {
+    flex: 1;
+
+    .news-text {
+      margin: 0 0 0.3rem 0;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--global-text-color);
+    }
+
+    .news-date {
+      font-size: 0.82rem;
+      color: var(--global-text-color-light);
+      font-style: italic;
+    }
+  }
+}
+
 // Fun stuff section styling - casual and relaxed
 .fun-stuff-section {
   margin-left: 2rem;
