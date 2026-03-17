@@ -32,9 +32,6 @@ latest_posts:
 ## About Me
 
 
-
-
-
 I am a PhD candidate at the Department of [Computer and Information Science](https://umdearborn.edu/cecs) at the University of Michigan-Dearborn advised by Dr. [Niccolò Meneghetti](https://www-personal.umd.umich.edu/~niccolom/research/). My research resides at the intersection of Machine Learning and Systems, with a core focus on Bayesian inference and probabilistic modeling
 
 
@@ -60,7 +57,7 @@ I am a PhD candidate at the Department of [Computer and Information Science](htt
       <span class="news-badge-venue">SIGMOD 2026</span>
     </div>
     <div class="news-content">
-         <p class="news-text">Paper accepted at <strong>ACM SIGMOD 2026</strong>. <em>Variational Inference for De Finetti Logic</em> brings variational inference natively into the database query engine, enabling fast, relational probabilistic programming.</p>
+      <p class="news-text">Paper accepted at <strong>ACM SIGMOD 2026</strong>. <em>Variational Inference for De Finetti Logic</em> brings variational inference natively into the database query engine, enabling fast, relational probabilistic programming.</p>
       <span class="news-date">March 2026</span>
     </div>
   </div>
