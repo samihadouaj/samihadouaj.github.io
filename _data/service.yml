@@ -1,23 +1,23 @@
 # Service - Conference Reviews
 # Add your reviewer experience here
 
-- conference: "ICDM"
+- conference: "IEEE ICDM"
   role: "Reviewer"
   year: "2025"
   # description: "Optional description of your role."
 
-- conference: "BIGDATA"
+- conference: "IEEE BigData"
   role: "Reviewer"
   year: "2022, 2023, 2024, 2025"
   # description: "Optional description of your review contribution."
 
 - conference: "SIGMOD ARI"
-  role: "Reproducibility Reviewer"
+  role: "Artifacts Reviewer"
   year: "2024"
 
 - conference: "Accelerate4kids"
   role: "Volunteer"
-  year: "Sep - Dec 2024"
+  year: "Sep – Dec 2024"
   description: "Created educational materials and resources that support learning opportunities for underprivileged children."
 # Add more service experiences as needed
 # - conference: "Another Conference"

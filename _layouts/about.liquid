@@ -25,8 +25,9 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3 }}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+          {% assign profile_image_alt = page.profile.image_alt | default: page.profile.image %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile_image_alt
             cache_bust=true
           %}
         {% endif %}
@@ -60,6 +61,30 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit"> Publications</a>
       </h2>
       {% include selected_papers.liquid %}
+    {% endif %}
+
+    <!-- Industry Experience -->
+    {% if page.industry_experience %}
+      <h2>Industry Experience</h2>
+      <div class="industry-experience">
+        {% for experience in site.data.experience %}
+          <div class="experience-item">
+            <div class="experience-header">
+              <h4 class="experience-title">{{ experience.title }}</h4>
+              <span class="experience-period">{{ experience.period }}</span>
+            </div>
+            <div class="experience-details">
+              <p class="experience-company">
+                <strong>{{ experience.company }}</strong>
+                {%- if experience.location %} · {{ experience.location }}{% endif %}
+              </p>
+              {% if experience.description %}
+                <p class="experience-description">{{ experience.description }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
     {% endif %}
 
     <!-- Teaching Experience -->
@@ -100,6 +125,38 @@ layout: default
               {% if service.description %}
                 <p class="service-description">{{ service.description }}</p>
               {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <!-- Talks & Presentations -->
+    {% if page.talks %}
+      <h2>Talks &amp; Presentations</h2>
+      <div class="talks-section">
+        {% for talk in site.data.talks %}
+          <div class="talk-item">
+            <div class="talk-header">
+              <h4 class="talk-title">{{ talk.title }}</h4>
+              <span class="talk-date">{{ talk.date }}</span>
+            </div>
+            <div class="talk-details">
+              {% for type in talk.types %}
+                <span class="talk-type">{{ type }}</span>
+              {% endfor %}
+              <span class="talk-venue">
+                <strong>{{ talk.venue }}</strong>
+                {%- if talk.location %} · {{ talk.location }}{% endif %}
+              </span>
+              {% for link in talk.links %}
+                {% if link.url contains '://' %}
+                  {% assign link_url = link.url %}
+                {% else %}
+                  {% assign link_url = link.url | prepend: '/assets/pdf/' | relative_url %}
+                {% endif %}
+                <a class="talk-link" href="{{ link_url }}" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-pdf"></i> {{ link.label }}</a>
+              {% endfor %}
             </div>
           </div>
         {% endfor %}

@@ -9,11 +9,11 @@ last_name: Hadouaj
 contact_note: >
   The best way to contact me is by email.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Sami Hadouaj - PhD Candidate at University of Michigan-Dearborn | Researcher in Databases, AI, and Probabilistic Programming.
+  Sami Hadouaj - PhD Candidate at University of Michigan | Researcher in Databases, AI, and Probabilistic Programming.
 footer_text:
 keywords: Database, AI, Machine Learning, Probabilistic Reasoning, Probabilistic Programming, Probabilistic Inference # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: U-M_Logo-Hex.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://samihadouaj.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -62,7 +62,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: https://samihadouaj.github.io/assets/img/shadouaj_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -119,13 +119,13 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -302,6 +302,7 @@ filtered_bibtex_keywords:
     altmetric,
     annotation,
     arxiv,
+    author_note,
     award,
     award_name,
     bibtex_show,

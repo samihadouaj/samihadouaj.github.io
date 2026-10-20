@@ -1,0 +1,14 @@
+# Industry Experience
+# Add your industry experiences here
+
+- title: "Applied Research Intern"
+  company: "eBay"
+  location: "San Jose, CA"
+  period: "May 2026 – August 2026"
+  description: "Built a hybrid vector and graph retrieval engine over eBay’s knowledge graph to ground LLMs."
+# Add more experiences as needed
+# - title: "Your Role"
+#   company: "Company Name"
+#   location: "City, State"
+#   period: "Month Year – Month Year"
+#   description: "Description of your work"

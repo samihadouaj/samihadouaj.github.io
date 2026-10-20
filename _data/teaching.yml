@@ -1,14 +1,24 @@
 # Teaching Experience
-# Add your teaching experiences here
+# Add your teaching experiences here, newest first (shown in this order)
+
+- title: "Algorithms Analysis and Design"
+  # institution: "University of Michigan"
+  role: "Graduate Teaching Assistant"
+  period: "Fall 2026"
 
 - title: "Database Systems"
-  # institution: "University of Michigan-Dearborn"
+  # institution: "University of Michigan"
   role: "Graduate Teaching Assistant"
-  period: "Winter 2023, Fall 2023, Winter 2024"
+  period: "Winter 2023, Fall 2023, Winter 2024, Fall 2026"
   # description: "Description of your teaching responsibilities and achievements."
 
+- title: "Text Mining & Information Retrieval"
+  # institution: "University of Michigan"
+  role: "Graduate Teaching Assistant"
+  period: "Winter 2026"
+
 - title: "Software Engineering"
-  # institution: "University of Michigan-Dearborn"
+  # institution: "University of Michigan"
   role: "Lab Instructor"
   period: "Fall 2025"
   # description: "Description of your teaching responsibilities and achievements."

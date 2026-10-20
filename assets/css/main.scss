@@ -29,6 +29,60 @@ header nav#navbar {
   display: none !important;
 }
 
+// Industry Experience Styling
+.industry-experience {
+  margin-top: 1rem;
+  margin-left: 2rem;
+
+  .experience-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.5rem;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  .experience-title {
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--global-text-color);
+  }
+
+  .experience-period {
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    font-style: italic;
+  }
+
+  .experience-company {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.95rem;
+    color: var(--global-text-color);
+  }
+
+  .experience-description {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    line-height: 1.5;
+  }
+}
+
 // Teaching experience indentation
 .teaching-experience {
   margin-left: 2rem;
@@ -140,6 +194,82 @@ header nav#navbar {
   }
 }
 
+// Talks & Presentations Styling
+.talks-section {
+  margin-top: 1rem;
+  margin-left: 2rem;
+
+  .talk-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .talk-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0;
+    }
+  }
+
+  .talk-title {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    line-height: 1.4;
+    color: var(--global-text-color);
+  }
+
+  .talk-date {
+    flex-shrink: 0;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+    font-style: italic;
+    white-space: nowrap;
+  }
+
+  .talk-details {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.6rem;
+    font-size: 0.95rem;
+    color: var(--global-text-color);
+  }
+
+  .talk-type {
+    display: inline-block;
+    border: 1px solid var(--global-theme-color);
+    color: var(--global-theme-color);
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.1em 0.5em;
+    border-radius: 4px;
+  }
+
+  .talk-link {
+    font-size: 0.85rem;
+    color: var(--global-theme-color);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 // News section styling
 .news-section {
   margin-top: 1rem;
@@ -186,6 +316,11 @@ header nav#navbar {
     white-space: nowrap;
   }
 
+  // Keep company brand casing (e.g. eBay) instead of all caps
+  .news-badge-company {
+    text-transform: none;
+  }
+
   .news-content {
     flex: 1;
 
@@ -201,6 +336,22 @@ header nav#navbar {
       color: var(--global-text-color-light);
       font-style: italic;
     }
+  }
+}
+
+// Publication author markers (e.g. * for equal contribution) and their legend
+.publications .author {
+  sup {
+    font-size: 0.85em;
+    font-weight: 600;
+    top: -0.35em;
+  }
+
+  .author-note {
+    margin-left: 0.5rem;
+    font-size: 0.85em;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
   }
 }
 

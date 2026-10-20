@@ -1,0 +1,50 @@
+# Talks & Presentations
+# Add your talks and posters here, newest first
+# Links point to files in assets/pdf (or full URLs)
+
+- title: "Stochastic Variational Inference for Relational Probabilistic Programming"
+  venue: "Northeast Database Day 2026"
+  types: ["Poster"]
+  location: "Boston, MA"
+  date: "January 2026"
+  links:
+    - label: "Poster"
+      url: "Poster_NEDB26.pdf"
+
+- title: "Declarative Probabilistic Programming for Explainable AI"
+  venue: "Northeast Database Day 2025"
+  types: ["Poster"]
+  location: "Boston, MA"
+  date: "January 2025"
+
+- title: "StarfishDB: A Query Execution Engine for Relational Probabilistic Programming"
+  venue: "SIGMOD 2024"
+  types: ["Talk", "Poster"]
+  location: "Santiago, Chile"
+  date: "June 2024"
+  links:
+    - label: "Slides"
+      url: "Sigmod_paper_presentation_V4.pdf"
+    - label: "Poster"
+      url: "Sigmod24_starfishDB_poster.pdf"
+
+- title: "StarfishDB: A Query Execution Engine for Relational Probabilistic Programming"
+  venue: "Northeast Database Day 2024"
+  types: ["Poster"]
+  location: "Boston, MA"
+  date: "March 2024"
+
+- title: "Query-driven Inference in Probabilistic Databases"
+  venue: "Northeast Database Day 2023"
+  types: ["Poster"]
+  location: "Boston, MA"
+  date: "March 2023"
+# Add more talks as needed
+# - title: "Talk Title"
+#   venue: "Conference Name Year"
+#   types: ["Talk"]
+#   location: "City, Country"
+#   date: "Month Year"
+#   links:
+#     - label: "Slides"
+#       url: "file.pdf"
